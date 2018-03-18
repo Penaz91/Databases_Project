@@ -1,0 +1,110 @@
+body{
+	background: #353535;
+}
+
+.header{
+	border-radius: 25px;
+	width: 1030px;
+	height: 80px;
+	background: #4C4C4C;
+	margin-bottom: 15;
+}
+
+.container{
+	width: 1030px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.sidebar{
+	border-radius: 25px;
+	width: 200px;
+	height: 80%;
+	background: #CACACA;
+	float: left;
+}
+
+.content{
+	border-radius: 25px;
+	width: 800px;
+	height: 80%;
+	background: #FFFFFF;
+	float: right;
+}
+
+.login{
+	border-radius: 25px;
+	width:400px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	height: 400px;
+	background: #FFFFFF
+}
+
+.centeredInput{
+	text-align: center;
+}
+
+.sidebarlink{
+	display: block;
+	width: inherit;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.sidebarlink:link{
+	color: #000000;
+	text-decoration: none;
+}
+
+.sidebarlink:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+.sidebarlink:hover{
+	background-color: #A5A5A5;
+	font-color: #000000;
+	font-weight: bold;
+}
+
+.sidebarsection{
+	font-color: #CACACA;
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #000000;
+	text-decoration: none;
+}
+
+.sidebarpopup{
+	display: none;
+	background-color: #EEEEEE;
+	position: absolute;
+	min-width: 260px;
+	z-index: 1;
+}
+
+.sidebarsection:hover {
+	background-color: #A5A5A5;
+	font-color: #000000;
+	font-weight: bold;
+
+}
+
+.sidebarsection:hover .sidebarpopup {
+	display: block;
+	left: 200px;
+	top: -20px;
+}
